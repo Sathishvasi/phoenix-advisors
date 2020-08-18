@@ -512,9 +512,8 @@ export default () => {
     let Component = null;
     if(type === "blocks" && subtype) {
       Component= components[type][subtype]["elements"][name].component
-      return <AnimationRevealPage disabled>
-          <Component/>
-        </AnimationRevealPage>
+      return <Component/>
+          // <AnimationRevealPage disabled></AnimationRevealPage>
     }
     else
       Component= components[type][name].component

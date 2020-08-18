@@ -115,7 +115,7 @@ export default ({
   ];
 
   return (
-    <AnimationRevealPage disabled>
+    // <AnimationRevealPage disabled>
       <Container tw="bg-gray-100 -mx-8 -mt-8 pt-8 px-8">
         <Content2Xl>
           <NavRow>
@@ -216,7 +216,7 @@ export default ({
           </SectionContainer>
         </Content2Xl>
       </Container>
-    </AnimationRevealPage>
+    // </AnimationRevealPage>
   );
 };
 

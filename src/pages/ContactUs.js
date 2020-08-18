@@ -14,7 +14,8 @@ const Phone = tw.span`text-sm mt-0 block text-gray-500`;
 
 export default () => {
   return (
-    <AnimationRevealPage>
+    <>
+    {/* <AnimationRevealPage> */}
       <Header />
       <ContactUsForm />
       <ContactDetails
@@ -100,6 +101,7 @@ export default () => {
         ]}
       />
       <Footer />
-    </AnimationRevealPage>
+    {/* </AnimationRevealPage> */}
+    </>
   );
 };

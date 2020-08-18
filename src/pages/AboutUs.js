@@ -19,7 +19,8 @@ import CustomerLoveIconImage from "images/simple-icon.svg";
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default () => {
   return (
-    <AnimationRevealPage>
+    // <AnimationRevealPage>
+    <>
       <Header />
       <MainFeature1
         subheading={<Subheading></Subheading>}
@@ -63,6 +64,7 @@ export default () => {
         subheading={<Subheading>Our Team</Subheading>}
       />
       <Footer />
-    </AnimationRevealPage>
+    {/* </AnimationRevealPage> */}
+    </>
   );
 };
