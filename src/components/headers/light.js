@@ -6,7 +6,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
-import logo from "../../images/logo.svg";
+import logo from "../../images/phoenix.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
@@ -39,7 +39,7 @@ export const LogoLink = styled(NavLink)
   ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
 
   img {
-    ${tw`w-10 mr-3`}
+    ${tw`w-32 mr-3`}
   }
 `;
 
@@ -74,14 +74,14 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/components/innerPages/AboutUsPage">About</NavLink>
-      <NavLink href="/components/innerPages/BlogIndexPage">Blog</NavLink>
-      <NavLink href="/components/innerPages/PricingPage">Pricing</NavLink>
-      <NavLink href="/components/innerPages/ContactUsPage">Contact Us</NavLink>
-      <NavLink href="/components/innerPages/LoginPage" tw="lg:ml-12!">
+      <NavLink href="/components/innerPages/AboutUsPage">Who Are We?</NavLink>
+      <NavLink href="/components/innerPages/PricingPage">Alternative Investment</NavLink>
+      <NavLink href="/components/innerPages/BlogIndexPage">The Knowledge Network</NavLink>
+      <NavLink href="/components/innerPages/ContactUsPage">Innovation</NavLink>
+      {/* <NavLink href="/components/innerPages/LoginPage" tw="lg:ml-12!">
         Login
       </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink> */}
     </NavLinks>
   ];
 
@@ -91,7 +91,6 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      Treact
     </LogoLink>
   );
 
