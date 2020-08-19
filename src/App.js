@@ -103,6 +103,7 @@ import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
+import BlogViewPage from "pages/BlogView.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -110,12 +111,14 @@ export default function App() {
     // return <AnimationRevealPage disabled></AnimationRevealPage>;
     return ( <Router basename="/phoenix-website/">
         <Switch >
-        <Route path = "/phoenix-website/components/:type/:subtype/:name" >
+        <Route path = "/components/:type/:subtype/:name" >
         <ComponentRenderer/>
         </Route>  
-        <Route path = "/phoenix-website/components/:type/:name" >
+        
+        <Route path = "/components/:type/:name" >
         <ComponentRenderer/>
         </Route>  
+        <Route path = "/blog/:id"  component={BlogViewPage}/>
         <Route path = "/" >
         <SaaSProductLandingPage/>
         </Route> 
