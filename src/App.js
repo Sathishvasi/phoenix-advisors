@@ -108,7 +108,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
     // return <AnimationRevealPage disabled></AnimationRevealPage>;
-    return ( <Router >
+    return ( <Router basename="/phoenix-website/">
         <Switch >
         <Route path = "/components/:type/:subtype/:name" >
         <ComponentRenderer/>
