@@ -90,7 +90,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
 
   const defaultLogoLink = (
-    <LogoLink href="/">
+    <LogoLink href="/phoenix-website">
       <img src={logo} alt="logo" />
     </LogoLink>
   );
