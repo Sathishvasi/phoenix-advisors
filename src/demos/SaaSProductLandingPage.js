@@ -30,7 +30,7 @@ export default () => {
         subheading={<Subheading>Features</Subheading>}
         heading={
           <>
-            Our <HighlightedText>Practice Areas.</HighlightedText>
+            Our Practice Areas
           </>
         }
       />
