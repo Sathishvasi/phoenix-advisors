@@ -60,7 +60,7 @@ const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-p
 
 export default ({
   heading = "Result-Oriented Legal Solutions, Just For You",
- description="Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
+ description="Our expert panel of legal advisors will help you get through any legal matter with ease.",
   primaryButtonText="Get Started",
   primaryButtonUrl="#get-started",
   watchVideoButtonText="Watch Video",
