@@ -37,7 +37,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
 const CustomerInfoAndControlsContainer = tw.div`mt-6 flex justify-between items-center flex-col sm:flex-row`;
 
 const CustomerInfo = tw.div`flex flex-col sm:flex-row items-center justify-center lg:justify-start`;
-const CustomerProfilePicture = tw.img`rounded-full w-16 h-16 sm:w-20 sm:h-20`;
+const CustomerProfilePicture = tw.img`rounded-full object-cover mt-5 w-16 h-16 sm:w-20 sm:h-20`;
 const CustomerTextInfo = tw.div`text-center md:text-left sm:ml-6 mt-2 sm:mt-0`;
 const CustomerName = tw.h5`font-bold text-xl`;
 const CustomerTitle = tw.p`font-medium text-secondary-100`;
