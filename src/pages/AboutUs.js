@@ -22,7 +22,7 @@ export default () => {
     // <AnimationRevealPage>
     <>
       <Header />
-      <MainFeature1
+      {/* <MainFeature1
         subheading={<Subheading></Subheading>}
         heading="Who Are We?"
         buttonRounded={false}
@@ -36,8 +36,8 @@ export default () => {
         primaryButtonText="Contact Us"
         imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
         textOnLeft={false}
-      />
-      <Features
+      /> */}
+      {/* <Features
         subheading={<Subheading>Our Values</Subheading>}
         heading="We follow these."
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -59,9 +59,9 @@ export default () => {
           },
         ]}
         linkText=""
-      />
+      /> */}
       <TeamCardGrid 
-        subheading={<Subheading>Our Team</Subheading>}
+        // subheading={<Subheading>Our Authors</Subheading>}
       />
       <Footer />
     {/* </AnimationRevealPage> */}

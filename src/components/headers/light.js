@@ -74,10 +74,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/phoenix-website/components/innerPages/AboutUsPage">Who Are We?</NavLink>
+      <NavLink href="/phoenix-website/">Who Are We?</NavLink>
       <NavLink href="/phoenix-website/components/innerPages/PricingPage">Alternative Investment</NavLink>
       <NavLink href="/phoenix-website/blogs">The Knowledge Network</NavLink>
       <NavLink href="/phoenix-website/components/innerPages/ContactUsPage">Innovation</NavLink>
+      <NavLink href="/phoenix-website/components/innerPages/AboutUsPage">Authors</NavLink>
       {/* <NavLink href="/components/innerPages/LoginPage" tw="lg:ml-12!">
         Login
       </NavLink>
