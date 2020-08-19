@@ -110,10 +110,10 @@ export default function App() {
     // return <AnimationRevealPage disabled></AnimationRevealPage>;
     return ( <Router basename="/phoenix-website/">
         <Switch >
-        <Route path = "/components/:type/:subtype/:name" >
+        <Route path = "/phoenix-website/components/:type/:subtype/:name" >
         <ComponentRenderer/>
         </Route>  
-        <Route path = "/components/:type/:name" >
+        <Route path = "/phoenix-website/components/:type/:name" >
         <ComponentRenderer/>
         </Route>  
         <Route path = "/" >

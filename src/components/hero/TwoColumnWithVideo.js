@@ -65,7 +65,8 @@ export default ({
   primaryButtonUrl="#",
   watchVideoButtonText="Watch Video",
   watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
-  imageSrc=DesignIllustration,
+  // imageSrc=DesignIllustration,
+  imageSrc="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
   imageCss=null,
   imageDecoratorBlob = false,
 }) => {
