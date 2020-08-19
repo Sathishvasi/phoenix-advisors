@@ -57,7 +57,7 @@ export default ({
       title: "Arbitral Proceedings in the Era and Aftermath of COVID-19",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com",
+      url: "blogs/1",
       featured: false
     },
     {
@@ -68,7 +68,7 @@ export default ({
       title: "India And The Crying Need For Transformation In Its Legal Industry",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com",
+      url: "blogs/1",
       featured: false
     },
     {
@@ -79,7 +79,7 @@ export default ({
       title: "The 2 P’s of Innovation – People and Process",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com",
+      url: "blogs/1",
       featured: false
     },
     // getPlaceholderPost(),
@@ -135,5 +135,5 @@ const getPlaceholderPost = () => ({
   title: "Visit the beautiful Alps in Switzerland",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  url: "https://reddit.com"
+  url: "/blogs/1"
 });
