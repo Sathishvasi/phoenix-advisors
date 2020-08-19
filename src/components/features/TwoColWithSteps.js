@@ -46,7 +46,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  imageSrc = TeamIllustrationSrc,
+  imageSrc = "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,
@@ -59,15 +59,15 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register",
+      heading: "Register with Us",
       description: "Create an account with us using Google or Facebook."
     },
     {
-      heading: "Download",
+      heading: "Determine your legal problem and expected outcome",
       description: "Browse and Download the template that you like from the marketplace."
     },
     {
-      heading: "Run",
+      heading: "Let us find the Solution",
       description: "Follow the instructions to setup and customize the template to your needs."
     }
   ];
@@ -75,7 +75,7 @@ export default ({
   if (!steps) steps = defaultSteps;
 
   return (
-    <Container>
+    <Container id="get-started">
       <TwoColumn>
         <ImageColumn>
           <Image src={imageSrc} imageBorder={imageBorder} imageShadow={imageShadow} imageRounded={imageRounded} />

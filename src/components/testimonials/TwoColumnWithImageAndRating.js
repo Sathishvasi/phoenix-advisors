@@ -69,14 +69,14 @@ const ControlButton = styled.button`
 `;
 
 export default ({
-  imageSrc = loveIllustrationImageSrc,
+  imageSrc = "https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=773&q=80",
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,
   subheading = "Testimonials",
   heading = "Our Clients Love Us.",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
-  textOnLeft = false,
+  textOnLeft = true,
   testimonials = [
     {
       stars: 5,

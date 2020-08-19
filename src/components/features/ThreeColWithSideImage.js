@@ -10,12 +10,12 @@ import defaultCardImage from "images/shield-icon.svg";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomizeIconImage from "images/customize-icon.svg";
-import FastIconImage from "images/fast-icon.svg";
-import ReliableIconImage from "images/reliable-icon.svg";
-import SimpleIconImage from "images/simple-icon.svg";
+import bankingIconImage from "images/banking.svg";
+import realestateIconImage from "images/realestate.svg";
+import insuranceIconImage from "images/insurance.svg";
+import clientIconImage from "images/client.svg";
+import mergesIconImage from "images/merges.svg";
+import corporateIconImage from "images/corporate.svg";
 
 const Container = tw.div`relative`;
 
@@ -69,15 +69,15 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
 
   const defaultCards = [
     {
-      imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      imageSrc: corporateIconImage,
+      title: "Corporate & Commercial",
+      // description: "We strictly only deal with vendors that provide top notch security."
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: insuranceIconImage, title: "Insurance" },
+    { imageSrc: clientIconImage, title: "Private Client" },
+    { imageSrc: realestateIconImage, title: "Real Estate" },
+    { imageSrc: mergesIconImage, title: "Merges & Acquisitions" },
+    { imageSrc: bankingIconImage, title: "Banking" }
   ];
 
   if (!cards) cards = defaultCards;

@@ -30,16 +30,16 @@ export default () => {
         subheading={<Subheading>Features</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            Our <HighlightedText>Practice Areas.</HighlightedText>
           </>
         }
       />
-      <MainFeature
+      {/* <MainFeature
         subheading={<Subheading>Quality Work</Subheading>}
         imageSrc={heroScreenshotImageSrc}
         imageBorder={true}
         imageDecoratorBlob={true}
-      />
+      /> */}
       <FeatureWithSteps
         subheading={<Subheading>STEPS</Subheading>}
         heading={
@@ -48,11 +48,11 @@ export default () => {
           </>
         }
         textOnLeft={false}
-        imageSrc={macHeroScreenshotImageSrc}
+        imageSrc={"https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"}
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
-      <MainFeature2
+      {/* <MainFeature2
         subheading={<Subheading>VALUES</Subheading>}
         heading={
           <>
@@ -107,7 +107,7 @@ export default () => {
             features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
           }
         ]}
-      />
+      /> */}
       <Testimonial
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
@@ -138,7 +138,7 @@ export default () => {
           }
         ]}
       />
-      <FAQ
+      {/* <FAQ
         subheading={<Subheading>FAQS</Subheading>}
         heading={
           <>
@@ -177,8 +177,8 @@ export default () => {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           }
         ]}
-      />
-      <GetStarted/>
+      /> */}
+      {/* <GetStarted/> */}
       <Footer />
       </>
     // </AnimationRevealPage>
