@@ -105,6 +105,7 @@ import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 import BlogIndexPage from "pages/BlogIndex.js";
 import BlogViewPage from "pages/BlogView.js";
+import AuthorsPage from "pages/AboutUs.js";
 
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -120,6 +121,7 @@ export default function App() {
         <Route path = "/components/:type/:name" >
         <ComponentRenderer/>
         </Route>  
+        <Route path = "/authors"  component={AuthorsPage}/>
         <Route path = "/blogs/:id"  component={BlogViewPage}/>
         <Route path = "/blogs" >
         <BlogIndexPage></BlogIndexPage>
