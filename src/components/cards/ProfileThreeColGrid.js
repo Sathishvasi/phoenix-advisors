@@ -42,7 +42,7 @@ const CardLinks = styled.div`
 
 export default ({
   heading = "Meet These Fine Authors.",
-  subheading = "Our Authors",
+  subheading = "The Team",
   description = "The responsibilities of an Author include writing original stories for novels, plays, television scripts, and movies.",
   cards = [
     {
