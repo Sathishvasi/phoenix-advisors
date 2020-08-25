@@ -26,6 +26,12 @@ export const NavLink = tw.a `
   pb-1 border-b-2 border-transparent hover:border-primary-500 hocus:text-primary-500
 `;
 
+export const DropDownButton = tw.span `
+  text-lg my-2 lg:text-sm lg:mx-6 lg:my-0 cursor-default
+  font-semibold  transition duration-300
+  pb-1 border-transparent hover:border-primary-500
+`;
+
 export const PrimaryLink = tw(NavLink)
 `
   lg:mx-0
@@ -75,10 +81,16 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="#">Who Are We?</NavLink>
-      <NavLink href="#">Alternative Investment</NavLink>
-      <NavLink href="/phoenix-website/blogs">The Knowledge Network</NavLink>
+      <NavLink href="#">Alternative Investments</NavLink>
+      <div className="dropdown">
+        <DropDownButton className="dropdown-button">Thought Leadership</DropDownButton>
+        <div className="dropdown-menu">     
+        <NavLink href="/phoenix-website/blogs">The Knowledge Network</NavLink>
+        <NavLink href="/phoenix-website/blogs">The Knowledge Series</NavLink>
+        </div>
+       </div>
       <NavLink href="#">Innovation</NavLink>
-      <NavLink href="/phoenix-website/authors">Authors</NavLink>
+      <NavLink href="/phoenix-website/authors">The Team</NavLink>
       {/* <NavLink href="/components/innerPages/LoginPage" tw="lg:ml-12!">
         Login
       </NavLink>

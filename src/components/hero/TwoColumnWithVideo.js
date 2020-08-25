@@ -13,7 +13,7 @@ import { ReactComponent as PlayIcon } from "feather-icons/dist/icons/play-circle
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.svg";
-import DesignIllustration from "../../images/design-illustration.svg";
+import DubaiMarketImage from "../../images/dubai_market.jpg";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -65,8 +65,8 @@ export default ({
   primaryButtonUrl="#get-started",
   watchVideoButtonText="Watch Video",
   watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
-  // imageSrc=DesignIllustration,
-  imageSrc="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+  imageSrc=DubaiMarketImage,
+  // imageSrc="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
   imageCss=null,
   imageDecoratorBlob = false,
 }) => {
