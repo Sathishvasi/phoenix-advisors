@@ -32,7 +32,7 @@ const CardImage = styled.div`
       background-image: url("${props.imageSrc}");
       object-fit: cover;
     `}
-  ${tw`w-24 h-24 rounded-full bg-cover bg-center`}
+  ${tw`w-40 h-40 rounded-full bg-cover bg-center`}
 `;
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
