@@ -66,3 +66,12 @@ nav {
 .dropdown-menu a:not(:last-of-type) {
     margin-bottom: 15px;
 }
+
+.bio-content ul {
+    list-style-type: circle;
+}
+.bio-content ul li{
+    padding: 8px;
+    font-size: 15px;
+    color: rgb(124,139,161)
+}
