@@ -15,10 +15,10 @@ const Subheading = tw(SubheadingBase)`text-center mb-3`
 const Description = tw(SectionDescription)`mx-auto text-center`
 
 const Cards = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`
-const Card = tw.div`mt-24 w-full sm:w-1/2 lg:w-1/3 flex flex-col items-center`
+const Card = tw.div`mt-24 w-full sm:w-full lg:w-1/2 flex flex-col items-center`
 const CardImage = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
-  ${tw`w-64 h-64 bg-contain bg-center rounded`}
+  ${tw`w-20 h-20 bg-contain bg-center rounded`}
 `
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
@@ -48,7 +48,7 @@ export default ({
     {
       imageSrc: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
       position: "Author",
-      name: "Adam Cuppy",
+      name: "Adam Cuppysss",
       links: [
         {
           url: "https://twitter.com",
@@ -184,6 +184,10 @@ export default ({
                   ))}
                 </CardLinks>
               </CardContent>
+              <ul>
+                <li> responsibilities of an Author include writing original stories for novels, plays, television scripts, and movies.</li>
+                <li> responsibilities of an Author include writing original stories for novels, plays, television scripts, and movies.</li>
+              </ul>
             </Card>
           ))}
         </Cards>
