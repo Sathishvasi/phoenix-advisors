@@ -16,6 +16,7 @@ import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.sv
 import DubaiMarketImage from "../../images/dubai_market.jpg";
 
 const Container = tw.div`relative`;
+const Column = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto text-center justify-center`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
 const LeftColumn = tw.div`relative lg:w-6/12 lg:pr-12 flex-shrink-0 text-center lg:text-left`;
 const RightColumn = tw.div`relative mt-12 lg:mt-0 flex flex-col justify-center`;
@@ -60,14 +61,16 @@ const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-p
 
 export default ({
   heading = "Result-Oriented Legal Solutions, Just For You",
- description="Our expert panel of legal advisors will help you get through any legal matter with ease.",
-  primaryButtonText="Get Started",
-  primaryButtonUrl="#get-started",
-  watchVideoButtonText="Watch Video",
-  watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
-  imageSrc=DubaiMarketImage,
+  description = "Our expert panel of legal advisors will help you get through any legal matter with ease.",
+  quote = "“To become a master of our thoughts and emotions, like a Phoenix we need to be able to sit in the discomfort of the fire. Sitting in the fire is both the process and initiation”",
+  author = " – Dr. Joe Dispenza",
+  primaryButtonText = "Get Started",
+  primaryButtonUrl = "#get-started",
+  watchVideoButtonText = "Watch Video",
+  watchVideoYoutubeUrl = "https://www.youtube.com/embed/_GuOjXYl5ew",
+  imageSrc = DubaiMarketImage,
   // imageSrc="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-  imageCss=null,
+  imageCss = null,
   imageDecoratorBlob = false,
 }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -83,7 +86,9 @@ export default ({
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
-              <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
+              <PrimaryButton as="a" href={primaryButtonUrl}>
+                {primaryButtonText}
+              </PrimaryButton>
               {/* <WatchVideoButton onClick={toggleModal}>
                 <span className="playIconContainer">
                   <PlayIcon className="playIcon" />
@@ -94,15 +99,14 @@ export default ({
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>
-              <img
-                css={imageCss}
-                src={imageSrc}
-                alt="Hero"
-              />
+              <img css={imageCss} src={imageSrc} alt="Hero" />
               {imageDecoratorBlob && <DecoratorBlob2 />}
             </IllustrationContainer>
           </RightColumn>
         </TwoColumn>
+        <Column>
+          <Paragraph>{quote}<span> – Dr. Joe Dispenza</span></Paragraph>
+        </Column>
         <DecoratorBlob1 />
         <StyledModal
           closeTimeoutMS={300}

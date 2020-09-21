@@ -16,7 +16,7 @@ import avatar1 from "images/DilipMassand.jpg";
 import avatar2 from "images/RachelPether.png";
 import avatar3 from "images/DipuMehta.jpeg";
 import avatar4 from "images/Parag.jpg";
-import avatar5 from "images/Parag.jpg";
+import avatar5 from "images/AlexBevan.JPG";
 import avatar6 from "images/Parag.jpg";
 
 const HeadingContainer = tw.div``;
@@ -228,7 +228,7 @@ export default ({
     {
       imageSrc: avatar5,
       position: "Author",
-      name: "Kevin Perkins",
+      name: "Alex Bevan",
       links: [
         {
           url: "https://twitter.com",
@@ -246,24 +246,19 @@ export default ({
       content: [
         {
           li:
-            "Mr. Massand is a co-founder and managing director of Phoenix Advisors in the UAE and a founding member of SAS Asset Recovery headquartered in the Cayman Islands",
+            "Alex Bevan is a partner in the International Arbitration practice and Head of the Abu Dhabi office. He leads the Firm’s Construction practice. He is also a member of the Firm’s 9-member Policy Committee."
+        },
+        {
+          li:"Alex specializes in complex international arbitration proceedings arising out of construction and development projects, investments, acquisitions and joint ventures. These disputes arise in a range of industries, in particular infrastructure, power, oil and gas and telecoms. He also regularly serves as Arbitrator in international arbitration proceedings.",
         },
         {
           li:
-            "Mr. Massand has over 20 years of experience in the Middle East working with sovereign funds, banks, and ultra high net worth individuals",
+            "Chambers Global notes that clients and peers have described Alex as “extremely able” a “go-to guy for major international arbitrations,” and “a strategic thinker and a persuasive advocate” with “excellent relationship-building skills.” Chambers UK further noted that he is a “clinical cross-examiner” with “invaluable strategic thinking.” He has also been described as “outstanding – shrewd, hardworking and able.” Alex is recommended in Legal 500 EMEA and Legal 500 UK.",
         },
         {
           li:
-            "Prior to SAS, Mr. Massand served as co-chair of the emerging markets practice for McLaughlin & Stern, LLP, a New York based law firm. His clients included private equity and hedge funds, civil engineering, aviation, transportation, and infrastructure firms",
-        },
-        {
-          li:
-            "From 2000-2009, Mr. Massand served a member of the board of directors for DCD Capital, a global trade finance and shariah compliant real estate investment firm",
-        },
-        {
-          li:
-            "From 1991 to 2002, Mr. Massand served as general counsel of the Massand Group. A diversified family enterprise consisting of engineering, construction, and media assets in the United States, the Middle East, and India",
-        },
+            "Alex Bevan is also recommended in Who’s Who Legal – Construction 2019, which reports that “Alex Bevan ranks as one of the go-to construction lawyers in the UAE. Market commentators laud him as ‘a top-tier lawyer’ and ‘one of the premier practitioners in international construction arbitration’”. Who’s Who Legal – Arbitration 2020 recognizes him as a Global Leader, the publication notes that he “enjoys ‘a very good reputation’ in the international arbitration market. One peer says, ‘He gets some of the biggest instructions and is experienced beyond his years in mega-project disputes’”. Previous editions note that Alex Bevan is “‘an outstanding lawyer’ who is recognised as ‘a top name’ for construction-related arbitration” (2019), and that “Peers widely regard Alex Bevan as ‘one of the best construction arbitration specialists’ in the space who they consider ‘a natural born leader’” (2018).",
+        }
       ],
     },
     {
