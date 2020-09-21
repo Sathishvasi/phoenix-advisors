@@ -16,7 +16,7 @@ import avatar1 from "images/DilipMassand.jpg";
 import avatar2 from "images/RachelPether.png";
 import avatar3 from "images/DipuMehta.jpeg";
 import avatar4 from "images/Parag.jpg";
-import avatar5 from "images/AlexBevan.JPG";
+import avatar5 from "images/Parag.jpg";
 import avatar6 from "images/Parag.jpg";
 
 const HeadingContainer = tw.div``;
@@ -228,7 +228,7 @@ export default ({
     {
       imageSrc: avatar5,
       position: "Author",
-      name: "Alex Bevan",
+      name: "Parag",
       links: [
         {
           url: "https://twitter.com",
@@ -253,11 +253,11 @@ export default ({
         },
         {
           li:
-            "Chambers Global notes that clients and peers have described Alex as “extremely able” a “go-to guy for major international arbitrations,” and “a strategic thinker and a persuasive advocate” with “excellent relationship-building skills.” Chambers UK further noted that he is a “clinical cross-examiner” with “invaluable strategic thinking.” He has also been described as “outstanding – shrewd, hardworking and able.” Alex is recommended in Legal 500 EMEA and Legal 500 UK.",
+            "Chambers Global notes that clients and peers have described Alex as “extremely able” a “go-to guy for major international arbitrations,” and “a strategic thinker and a persuasive advocate” with “excellent relationship-building skills.",
         },
         {
           li:
-            "Alex Bevan is also recommended in Who’s Who Legal – Construction 2019, which reports that “Alex Bevan ranks as one of the go-to construction lawyers in the UAE. Market commentators laud him as ‘a top-tier lawyer’ and ‘one of the premier practitioners in international construction arbitration’”. Who’s Who Legal – Arbitration 2020 recognizes him as a Global Leader, the publication notes that he “enjoys ‘a very good reputation’ in the international arbitration market. One peer says, ‘He gets some of the biggest instructions and is experienced beyond his years in mega-project disputes’”. Previous editions note that Alex Bevan is “‘an outstanding lawyer’ who is recognised as ‘a top name’ for construction-related arbitration” (2019), and that “Peers widely regard Alex Bevan as ‘one of the best construction arbitration specialists’ in the space who they consider ‘a natural born leader’” (2018).",
+            "Alex Bevan is also recommended in Who’s Who Legal – Construction 2019, which reports that “Alex Bevan ranks as one of the go-to construction lawyers in the UAE.",
         }
       ],
     },
