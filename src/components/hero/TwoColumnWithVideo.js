@@ -104,8 +104,8 @@ export default ({
             </IllustrationContainer>
           </RightColumn>
         </TwoColumn>
-        <Column>
-          <Paragraph>{quote}<span> – Dr. Joe Dispenza</span></Paragraph>
+        <Column className="quote-col">
+          <Paragraph className="quote">{quote}<span> – Dr. Joe Dispenza</span></Paragraph>
         </Column>
         <DecoratorBlob1 />
         <StyledModal

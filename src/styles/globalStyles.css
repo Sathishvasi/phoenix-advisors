@@ -77,12 +77,12 @@ nav {
     color: rgb(124, 139, 161)
 }
 
-.cPNtHq p {
+.quote-col .quote  {
     max-width: 65%;
     font-size: 1.5rem;
     font-style: italic;
 }
-.cPNtHq p span{
+.quote-col .quote span{
     max-width: 65%;
     font-size: 1.5rem;
     font-style: normal;
